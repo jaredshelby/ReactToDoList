@@ -1,0 +1,10 @@
+body {
+  padding: 20px;
+  background-color: #2F4F4F;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#outer-container {
+  display: flex;
+  justify-content: center;
+}
