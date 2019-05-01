@@ -1,6 +1,7 @@
 {
   "name": "simon-app",
   "version": "0.1.0",
+  "homepage" : "http://jaredshelby.com/react-todo/",
   "private": true,
   "dependencies": {
     "react": "^16.8.6",
