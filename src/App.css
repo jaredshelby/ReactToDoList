@@ -5,11 +5,11 @@
   border: 2px solid #FFF;
   width: 325px;
   border-radius: 5px;
-  margin-right: 1em;
+  margin-right: 0.7em;
 }
 
 .todoListContainer .header button {
-  padding: 10px;
+  padding: 10px 10px 11px 10px;
   font-size: 16px;
   margin: 10px;
   margin-right: 0px;
@@ -29,6 +29,9 @@
   margin: 0.2em 0em;
   color: #FFFFFF;
   text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 3.5em;
 }
 
 .todoListContainer .full-list {
@@ -37,7 +40,7 @@
 } 
 
 .todoListContainer .full-list li {
-  color: #555;
+  color: #222222;
   background-color: #C1CBCB;
   padding: 12px 15px;
   margin-bottom: 15px;
@@ -47,9 +50,9 @@
 }
 
 .todoListContainer .full-list li.high-priority {
-  background-color: #FF5656;
+  background-color: #FF6868;
   /*color: #FFFFFF;*/
-  border: 3px solid #FF5656;
+  border: 3px solid #FF6868;
 }
 
 .todoListContainer .full-list li.low-priority {
@@ -64,7 +67,7 @@
 }
 
 .todoListContainer .full-list li:hover {
-  background-color: orange;/*#FE6346*/
+  background-color: red;/*#FE6346*/
   color: #FFFFFF;
   cursor: pointer;
   border: 3px solid #FFFFFF;
